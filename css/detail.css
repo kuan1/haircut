@@ -1,0 +1,9 @@
+.detail-container .title{height:2rem;line-height:2rem;}
+.detail-container .title button{float:right;margin-right:1rem;padding:0.4rem 0.6rem;background: #f64b8f;border:0;color:#fff;border-radius: 0.2rem;}
+.detail-container .title img{margin-left:1rem;line-height:1.5rem;}
+.detail-container .share{margin-left:1rem;line-height:2.5rem;color:#f66;font-weight:900;}
+.detail-container .swiper-container{width:90%;margin:1rem auto;}
+.detail-container .swiper-container img{width:100%;}
+
+footer{text-align: center;}
+footer button{background:#ff6d9d;color:#fff;width:90%;height:2.5rem;border:0;border-radius: 0.3rem;margin-bottom: 1rem;}

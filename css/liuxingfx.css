@@ -1,0 +1,17 @@
+header{width: 100%;}
+.top{width: 93%;margin: 0 auto;height: 50px;}
+.top p{text-align: center;line-height: 50px;font-weight: 600;color: #000000;}
+.top p span{font-size: 22px;float: left;color: #000000;}
+
+ .nav{width: 100%;background: #428BCA;}
+ .nav span{font-size: 20px;}
+ .nav li{width: 25%;float: left;text-align: center;height: 50px;line-height: 50px;}
+
+/*内容*/
+.container{background:#f2f2f2;width: 100%;}
+.container-list{width: 93%;margin: 0 auto;}
+.container-list dl{float: left;margin-top: 15px;background: #fff;}
+.container-list dl:nth-child(even){float:right;}
+.container-list dt img{width: 165px;}
+.container-list dd{display:table-cell;vertical-align:middle;text-align:center;height: 65px;padding-left: 5px;}
+.container-list dd img{border-radius:35px;}

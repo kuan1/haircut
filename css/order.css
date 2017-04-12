@@ -1,0 +1,10 @@
+.order-container .title{height:3.8rem;background: #fafafa;padding:2px 0;}
+.order-container .title .wrap{width:25%;float:left;text-align: center;padding:0.4rem 0;}
+.order-container .title img{height:2rem;}
+.order-container .order{line-height:3rem;border-bottom:2px solid #eee;border-top:2px solid #eee;margin:1rem 0;padding:0 1rem;}
+.order-container .order span:first-child{font-weight:bold;font-size:1.125rem;margin-right:4rem;}
+.order-container .order button{border:0;padding:0.4rem 0.6rem;border-radius: 0.2rem;}
+.order-container .order button:first-of-type{background:#ff6d9d;margin-left:40%;margin-right: 0.5rem;}
+.order-container .order button:last-child{background:#ff6d9d;}
+
+.bottom-border{border-bottom: 1px solid #666;}

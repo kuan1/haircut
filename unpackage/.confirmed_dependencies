@@ -1,0 +1,169 @@
+{
+  "index.html": {
+    "resources": [
+      "js/lib/template.js",
+      "img/faxing_wenda.png",
+      "img/home1.png",
+      "img/wode0.png",
+      "css/public.css",
+      "js/lib/swiper.min.js",
+      "css/index.css",
+      "img/faxing_reservation.png",
+      "js/lib/swiper.min.css",
+      "img/faxing_match.png",
+      "data.json",
+      "img/fashion0.png",
+      "img/faxing_works.png",
+      "js/lib/zepto.min.js",
+      "img/order0.png",
+      "js/index.js",
+      "html/hairdresser.html",
+      "img/person04.png",
+      "img/person01.png",
+      "img/person02.png",
+      "html/detail.html",
+      "img/person03.png",
+      "img/head.png",
+      "html/find.html",
+      "html/order.html",
+      "html/redian.html",
+      "html/liuxingfx.html",
+      "test.html"
+    ],
+    "refer": [
+      "html/hairdresser.html",
+      "html/detail.html",
+      "html/find.html",
+      "html/order.html",
+      "html/redian.html",
+      "html/liuxingfx.html",
+      "test.html"
+    ]
+  },
+  "html/hairdresser.html": {
+    "resources": [
+      "index.html",
+      "js/hairdresser.js",
+      "img/fashion1.png",
+      "img/work_selected.png",
+      "img/home0.png",
+      "css/hairdresser.css",
+      "img/head.png",
+      "html/order.html",
+      "img/wode0.png",
+      "data.json",
+      "css/public.css",
+      "img/order0.png",
+      "html/my.html",
+      "js/lib/template.js"
+    ],
+    "refer": [
+      "index.html",
+      "html/order.html",
+      "html/my.html"
+    ]
+  },
+  "html/detail.html": {
+    "resources": [
+      "data.json",
+      "css/detail.css",
+      "js/detail.js",
+      "img/head.png",
+      "index.html",
+      "img/person04.png",
+      "img/person01.png",
+      "img/person02.png",
+      "img/person03.png",
+      "js/lib/swiper.min.css",
+      "css/public.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "html/find.html": {
+    "resources": [
+      "img/order1.png",
+      "img/man.jpg",
+      "img/wode0.png",
+      "img/fashion0.png",
+      "js/find.js",
+      "css/find.css",
+      "img/home0.png",
+      "img/girl.jpg",
+      "css/public.css",
+      "html/my.html",
+      "index.html"
+    ],
+    "refer": [
+      "html/my.html",
+      "index.html"
+    ]
+  },
+  "html/my.html": {
+    "resources": [
+      "index.html",
+      "img/wode1.png",
+      "css/my.css",
+      "img/wode_collections.png",
+      "img/fashion0.png",
+      "img/wode_about_us.png",
+      "img/rightarrow.png",
+      "img/order0.png",
+      "img/home0.png",
+      "img/-1.png",
+      "html/order.html",
+      "html/hairdresser.html"
+    ],
+    "refer": [
+      "index.html",
+      "html/order.html",
+      "html/hairdresser.html"
+    ]
+  },
+  "html/order.html": {
+    "resources": [
+      "html/my.html",
+      "img/order1.png",
+      "js/order.js",
+      "img/wode0.png",
+      "img/fashion0.png",
+      "img/order_unconsumption.png",
+      "css/order.css",
+      "img/order_uncomment.png",
+      "img/order_all.png",
+      "img/order_drawback.png",
+      "img/home0.png",
+      "index.html",
+      "js/lib/zepto.min.js",
+      "data.json",
+      "css/public.css",
+      "html/hairdresser.html",
+      "js/lib/template.js"
+    ],
+    "refer": [
+      "html/my.html",
+      "index.html",
+      "html/hairdresser.html"
+    ]
+  },
+  "html/redian.html": {
+    "resources": [
+      "css/redian.css",
+      "index.html"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "html/liuxingfx.html": {
+    "resources": [
+      "index.html",
+      "css/liuxingfx.css",
+      "img/w1.png"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  }
+}

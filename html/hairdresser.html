@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="Keywords" content=""/>
+	<meta name="Description" content=""/>
+	<title>理发师</title>
+	<link rel="stylesheet" href="../css/public.css" />
+	<link rel="stylesheet" href="../css/hairdresser.css" />
+</head>
+<body>
+	<div class="container hairdresser">
+		<div class="title clearfix">
+			<h1>预约发型师</h1>
+			<ul class="menu">
+				<li class="where-menu"><p>全程</p>
+					<ul class="submenu">
+						<li><p class="place active">金水区</p>
+							<ul class="grandmenu">
+								<li class="active">1千米</li>
+								<li>2千米</li>
+								<li>3千米</li>		
+								<li>全程</li>		
+							</ul>
+						</li>
+						<li><p class="place">二七区</p>
+							<ul class="grandmenu">
+								<li class="active">1千米</li>
+								<li>2千米</li>
+								<li>3千米</li>		
+								<li>全程</li>		
+							</ul>
+						</li>
+						<li><p class="place">管族区</p>
+							<ul class="grandmenu">
+								<li class="active">1千米</li>
+								<li>2千米</li>
+								<li>3千米</li>		
+								<li>全程</li>		
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><p class="auto-sort">智能排序</p>
+					<ul class="sort">
+						<li class="active">综合评价</li>
+						<li>销量</li>
+						<li>评分</li>
+						<li>信用</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="content" id="content">
+			<!--<div class="singlebox">
+					<div class="headpic">
+						<img src="../img/head.png">
+					</div>
+					<div class="dresser-info">
+						<p class="dresser-name">
+							<span>10.0km</span>
+							王老师
+						</p>
+						<p class="yuyue">
+							<span>1人预约</span>
+							<span>与4人对话</span>
+						</p>
+						<p>擅长:</p>
+				</div>
+			</div>-->
+		</div>
+	</div>
+	<footer class="footer">
+		<dl>
+			<dt><img src="../img/home0.png"/></dt>
+			<dd><a href="../index.html">首页</a></dd>
+		</dl>
+		<dl class="active">
+			<dt><img src="../img/fashion1.png"/></dt>
+			<dd><a href="hairdresser.html">发型师</a></dd>
+		</dl>
+		<dl>
+			<dt><img src="../img/order0.png"/></dt>
+			<dd><a href="order.html">订单</a></dd>
+		</dl>
+		<dl>
+			<dt><img src="../img/wode0.png"/></dt>
+			<dd><a href="my.html">我的</a></dd>
+		</dl>
+	</footer>
+</body>
+<script type="text/html" id="MB">
+	<div class="singlebox">
+		<div class="headpic">
+			<img src="{{headImg}}">
+		</div>
+		<div class="dresser-info">
+			<p class="dresser-name">
+				<span>{{distance}}</span>
+				{{name}}
+			</p>
+			<p class="yuyue">
+				<span>{{many}}人预约</span>
+				<span>与{{contact}}人对话</span>
+			</p>
+			<p>擅长:{{shanchang}}</p>
+		</div>
+	</div>
+</script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="../js/lib/template.js"></script>
+<script src="../js/hairdresser.js"></script>
+</html>

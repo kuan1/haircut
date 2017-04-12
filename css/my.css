@@ -1,0 +1,37 @@
+
+
+.container{background: #f2f2f2;}
+/*头部*/
+.top{height: 180px;width: 100%;background: #ff5947;position: relative;overflow: hidden;}
+.top-h{height: 90px;width: 90%;margin: 0 auto;position: absolute;top: -13px;left: 23px;}
+.top img{float: left;border-radius: 90px;}
+.top-h p{font-size:1.2rem;line-height: 90px;height: 70px;float: left;margin-left: 15px;}
+
+.top-ul{width: 100%;margin-top:105px ;}
+.top-ul>li{float: left;width: 33.3%;text-align: center;color: #fff;} 
+.top-ul>li p{line-height:30px;}
+
+/*订单*/
+.dingdan{width: 100%;height: 150px;margin:12px 0 12px 0 ;background: #fff;overflow: hidden;}
+.dingdan>h2{width: 90%;margin: 0 auto;font-weight: 100;}
+.dingdan>h2 p{height: 60px;line-height: 60px;font-size: 1.2rem;}
+.dingdan>h2 p:first-child{float: left;color: #000;}
+.dingdan>h2 p:last-child{float: right;color: #999999;}
+
+.dingdan-ul{width: 100%;overflow: hidden;}
+.dingdan-ul li{float: left;width: 33.3%;text-align: center;color: #000;}  
+.dingdan-ul>li p img{padding: 15px 0 15px 0;}
+
+.nav{width: 100%;overflow: hidden;background: #fff;}
+.nav-z{width: 90%;margin: 0 auto;}
+.nav-z p{line-height: 60px;}
+.nav-z p img{width: 1.6rem;height: 1.6rem;margin-top: 18px;} 
+.nav-z p img:first-child{float: left;}
+.nav-z p img:last-child{float: right;}
+.nav-z p span{margin-left: 10px;}
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+header{width: 100%;}
+.top{width: 93%;margin: 0 auto;height: 50px;}
+.top p{text-align: center;line-height: 50px;font-weight: 600;color: #000000;}
+.top p span{font-size: 22px;float: left;color: #000000;}
+
+
+/*内容*/
+.container{background:#f2f2f2;width: 100%;}
+.c-list{width: 95%;margin: 15px auto;overflow: hidden;}
+
+
+.c-img{height: 95px;width: 25%;float: left;background: #fff;}
+.c-img img{border-radius:60px ;margin: 18px 0 0 15px;}
+.c-list dd{height: 95px;float: right;width: 75%;background: #fff;}
+.c-list dd h2{font-weight: 100;font-size: 1.1rem;line-height: 28px;margin-top: 20px;}
+.c-list dd p{line-height: 25px;font-size: 0.8rem}
+.c-list .c-span{font-size: 0.5rem;margin-right: 5px;float: right;}

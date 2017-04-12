@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*reset*/
+body,button,input,select,textarea{font:100%/1 "Helvetica Neue",Helvetica,STHeiTi,"Microsoft YaHei";}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0; padding:0;-webkit-text-size-adjust:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+em,i{font-style:normal;}
+li{list-style:none;}
+img{border:0;}
+input,img{vertical-align:middle;}
+article,aside,footer,header,hgroup,nav,section,menu{display:block;}
+a{text-decoration:none;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+html,body{height:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;color: #666666;!important;font-size: 16px !important;}
+a,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);outline:none; -webkit-font-smoothing:antialiased}
+.hidden{ display:none;}
+
+body{display:flex;flex-direction:column;}
+header{height:3.2rem;line-height:3.2rem;text-align:center;}
+header h1{font-size:1.2rem;}
+header a{float:left;margin-left:1rem;font-weight: bold;}
+.container{flex:1;overflow: auto;}
+.footer{width:100%;height:80px;border-top:1px solid #d7d7d7;overflow: hidden;}
+.footer dl{float:left;width:25%;text-align:center;font-weight:bold;}
+.footer a{color:#666;font-size:1rem}
+.footer dt{height:50px;line-height:50px;}
+.footer dt img{height:60%;}
+.footer .active a{color:#ff6d9d;}
